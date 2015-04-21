@@ -35,7 +35,7 @@
 		16F3581B15864135003A3AD9 /* RMMapScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F3581915864135003A3AD9 /* RMMapScrollView.h */; };
 		16F3581C15864135003A3AD9 /* RMMapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3581A15864135003A3AD9 /* RMMapScrollView.m */; };
 		16F98C961590CFF000FF90CE /* RMShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F98C941590CFF000FF90CE /* RMShape.h */; };
-		16F98C971590CFF000FF90CE /* RMShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F98C951590CFF000FF90CE /* RMShape.m */; };
+		16F98C971590CFF000FF90CE /* RMShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F98C951590CFF000FF90CE /* RMShape.m */; settings = {COMPILER_FLAGS = "-Wno-property-attribute-mismatch"; }; };
 		16FAB66413E03D55002F4E1C /* RMQuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FAB66213E03D55002F4E1C /* RMQuadTree.h */; };
 		16FAB66513E03D55002F4E1C /* RMQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FAB66313E03D55002F4E1C /* RMQuadTree.m */; };
 		16FBF07615936BF1004ECAD1 /* RMTileSourcesContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FBF07415936BF1004ECAD1 /* RMTileSourcesContainer.h */; };
@@ -49,8 +49,7 @@
 		96492C400FA8AD3400EBA6D2 /* RMGlobalConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 96492C3F0FA8AD3400EBA6D2 /* RMGlobalConstants.h */; };
 		B1EB26C610B5D8E6009F8658 /* RMNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EB26C510B5D8E6009F8658 /* RMNotifications.h */; };
 		B8474BA40EB40094006A0BC1 /* RMDatabaseCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B8474B980EB40094006A0BC1 /* RMDatabaseCache.h */; };
-		B8474BA50EB40094006A0BC1 /* RMDatabaseCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B8474B990EB40094006A0BC1 /* RMDatabaseCache.m */; };
-		B8474BC10EB4019A006A0BC1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8474BC00EB4019A006A0BC1 /* libsqlite3.dylib */; };
+		B8474BA50EB40094006A0BC1 /* RMDatabaseCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B8474B990EB40094006A0BC1 /* RMDatabaseCache.m */; settings = {COMPILER_FLAGS = "-Wno-protocol"; }; };
 		B8800FF20EC3A239003E9CDD /* RMMapViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F2031E0EBB65E9003D7B6B /* RMMapViewDelegate.h */; };
 		B8800FF30EC3A23D003E9CDD /* RMConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1266929F0EB75C0A00E002D5 /* RMConfiguration.h */; };
 		B8C974220E8A19B2007D16AD /* RMProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = B83E64E30E80E73F001663B6 /* RMProjection.h */; };
@@ -65,7 +64,7 @@
 		B8C9743F0E8A19B2007D16AD /* RMTileImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64D90E80E73F001663B6 /* RMTileImage.m */; };
 		B8C974400E8A19B2007D16AD /* RMTile.c in Sources */ = {isa = PBXBuildFile; fileRef = B83E64D70E80E73F001663B6 /* RMTile.c */; };
 		B8C974410E8A19B2007D16AD /* RMOpenStreetMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64EE0E80E73F001663B6 /* RMOpenStreetMapSource.m */; };
-		B8C974420E8A19B2007D16AD /* RMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64D30E80E73F001663B6 /* RMMemoryCache.m */; };
+		B8C974420E8A19B2007D16AD /* RMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64D30E80E73F001663B6 /* RMMemoryCache.m */; settings = {COMPILER_FLAGS = "-Wno-protocol"; }; };
 		B8C974430E8A19B2007D16AD /* RMPixel.c in Sources */ = {isa = PBXBuildFile; fileRef = B83E64B70E80E73F001663B6 /* RMPixel.c */; };
 		B8C974440E8A19B2007D16AD /* RMFractalTileProjection.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64EA0E80E73F001663B6 /* RMFractalTileProjection.m */; };
 		B8C974480E8A19B2007D16AD /* RMTileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64D10E80E73F001663B6 /* RMTileCache.m */; };
@@ -77,7 +76,7 @@
 		B8C974540E8A19B2007D16AD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83E65680E80E830001663B6 /* QuartzCore.framework */; };
 		B8C974620E8A19E8007D16AD /* RMTileSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B83E64EC0E80E73F001663B6 /* RMTileSource.h */; };
 		B8C9746B0E8A1A50007D16AD /* RMMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C974690E8A1A50007D16AD /* RMMapView.h */; };
-		B8C9746C0E8A1A50007D16AD /* RMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C9746A0E8A1A50007D16AD /* RMMapView.m */; };
+		B8C9746C0E8A1A50007D16AD /* RMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C9746A0E8A1A50007D16AD /* RMMapView.m */; settings = {COMPILER_FLAGS = "-Wno-property-attribute-mismatch -Wno-unused-variable -Wno-absolute-value"; }; };
 		B8F3FC610EA2B382004D8F85 /* RMMapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F3FC600EA2B382004D8F85 /* RMMapLayer.m */; };
 		B8F3FC640EA2E792004D8F85 /* RMMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F3FC620EA2E792004D8F85 /* RMMarker.h */; };
 		B8F3FC650EA2E792004D8F85 /* RMMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F3FC630EA2E792004D8F85 /* RMMarker.m */; };
@@ -92,7 +91,7 @@
 		DD1985C1165C5F6400DF667F /* RMTileMillSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1985BF165C5F6400DF667F /* RMTileMillSource.h */; };
 		DD1985C2165C5F6400DF667F /* RMTileMillSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1985C0165C5F6400DF667F /* RMTileMillSource.m */; };
 		DD1E3C6E161F954F004FC649 /* SMCalloutView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1E3C6C161F954F004FC649 /* SMCalloutView.h */; };
-		DD1E3C6F161F954F004FC649 /* SMCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E3C6D161F954F004FC649 /* SMCalloutView.m */; };
+		DD1E3C6F161F954F004FC649 /* SMCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E3C6D161F954F004FC649 /* SMCalloutView.m */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32"; }; };
 		DD2B375514CF8197008DE8CB /* RMMBTilesSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2B375314CF8197008DE8CB /* RMMBTilesSource.h */; };
 		DD2B375614CF8197008DE8CB /* RMMBTilesSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2B375414CF8197008DE8CB /* RMMBTilesSource.m */; };
 		DD36766B17D94F980001F27B /* mapbox-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD36766A17D94F980001F27B /* mapbox-logo@2x.png */; };
@@ -119,7 +118,7 @@
 		DD5FA1EB15E2B020004EB6C5 /* RMLoadingTileView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5FA1E915E2B020004EB6C5 /* RMLoadingTileView.h */; };
 		DD5FA1EC15E2B020004EB6C5 /* RMLoadingTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5FA1EA15E2B020004EB6C5 /* RMLoadingTileView.m */; };
 		DD63175F17D1506D008CA79B /* RMGreatCircleAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = DD63175D17D1506D008CA79B /* RMGreatCircleAnnotation.h */; };
-		DD63176017D1506D008CA79B /* RMGreatCircleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63175E17D1506D008CA79B /* RMGreatCircleAnnotation.m */; };
+		DD63176017D1506D008CA79B /* RMGreatCircleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63175E17D1506D008CA79B /* RMGreatCircleAnnotation.m */; settings = {COMPILER_FLAGS = "-Wno-property-attribute-mismatch"; }; };
 		DD63176317D15EB5008CA79B /* RMCircleAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = DD63176117D15EB5008CA79B /* RMCircleAnnotation.h */; };
 		DD63176417D15EB5008CA79B /* RMCircleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63176217D15EB5008CA79B /* RMCircleAnnotation.m */; };
 		DD7C7E38164C894F0021CCA5 /* RMStaticMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7C7E36164C894F0021CCA5 /* RMStaticMapView.h */; };
@@ -167,11 +166,11 @@
 		DDE357E71651F570001DB842 /* RMPointAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE357E51651F570001DB842 /* RMPointAnnotation.h */; };
 		DDE357E81651F570001DB842 /* RMPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE357E61651F570001DB842 /* RMPointAnnotation.m */; };
 		DDE357F0165223A3001DB842 /* RMShapeAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE357EE165223A3001DB842 /* RMShapeAnnotation.h */; };
-		DDE357F1165223A3001DB842 /* RMShapeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE357EF165223A3001DB842 /* RMShapeAnnotation.m */; };
+		DDE357F1165223A3001DB842 /* RMShapeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE357EF165223A3001DB842 /* RMShapeAnnotation.m */; settings = {COMPILER_FLAGS = "-Wno-property-attribute-mismatch"; }; };
 		DDE357F416522661001DB842 /* RMPolylineAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE357F216522661001DB842 /* RMPolylineAnnotation.h */; };
-		DDE357F516522661001DB842 /* RMPolylineAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE357F316522661001DB842 /* RMPolylineAnnotation.m */; };
+		DDE357F516522661001DB842 /* RMPolylineAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE357F316522661001DB842 /* RMPolylineAnnotation.m */; settings = {COMPILER_FLAGS = "-Wno-property-attribute-mismatch"; }; };
 		DDE357F816522CD8001DB842 /* RMPolygonAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE357F616522CD8001DB842 /* RMPolygonAnnotation.h */; };
-		DDE357F916522CD8001DB842 /* RMPolygonAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE357F716522CD8001DB842 /* RMPolygonAnnotation.m */; };
+		DDE357F916522CD8001DB842 /* RMPolygonAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE357F716522CD8001DB842 /* RMPolygonAnnotation.m */; settings = {COMPILER_FLAGS = "-Wno-property-attribute-mismatch"; }; };
 		DDE68E5A17D94C0500F1E869 /* mapbox-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE68E5917D94C0500F1E869 /* mapbox-logo.png */; };
 		DDEDBBD01A81864800646DBB /* libGRMustache7-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDBBCF1A81864800646DBB /* libGRMustache7-iOS.a */; };
 /* End PBXBuildFile section */
@@ -370,7 +369,6 @@
 				B8C974520E8A19B2007D16AD /* CoreLocation.framework in Frameworks */,
 				B8C974530E8A19B2007D16AD /* UIKit.framework in Frameworks */,
 				B8C974540E8A19B2007D16AD /* QuartzCore.framework in Frameworks */,
-				B8474BC10EB4019A006A0BC1 /* libsqlite3.dylib in Frameworks */,
 				DDEDBBD01A81864800646DBB /* libGRMustache7-iOS.a in Frameworks */,
 				DD97C11616489678007C4652 /* libProj4.a in Frameworks */,
 			);
@@ -846,7 +844,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0630;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MapView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1056,22 +1054,25 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_FAST_MATH = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_STRICT_ALIASING = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1094,21 +1095,24 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_FAST_MATH = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_STRICT_ALIASING = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
