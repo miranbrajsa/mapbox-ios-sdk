@@ -321,6 +321,12 @@ typedef enum : NSUInteger {
 *   @param annotations An array containing the annotations to add to the map. */
 - (void)addAnnotations:(NSArray *)annotations;
 
+/*   Displays the callout above an annotation.
+*   @param annotation The annotation object to display the callout above.
+*   @param layer The marker layer to display the callout on.
+*   @param animated If `YES`, the callout view is animated into position. */
+- (void)displayCalloutForAnnotation:(RMAnnotation *)anAnnotation layer:(RMMapLayer *)layer animated:(BOOL)animated;
+
 /** Remove an annotation from the map. 
 *   @param annotation The annotation to remove. */
 - (void)removeAnnotation:(RMAnnotation *)annotation;
